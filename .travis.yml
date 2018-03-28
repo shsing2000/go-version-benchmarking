@@ -7,5 +7,3 @@ go:
 
 script:
     - cd vendor/github.com/satori/go.uuid/go test -bench=.
-
-
