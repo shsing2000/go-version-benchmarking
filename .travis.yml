@@ -3,7 +3,7 @@ language: go
 go:
     - 1.8
     - 1.9
-    - 1.10.0
+    - 1.10
 
 script:
     - cd vendor/github.com/satori/go.uuid/ && go test -bench=.
