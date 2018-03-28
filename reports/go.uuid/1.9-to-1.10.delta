@@ -1,0 +1,15 @@
+benchmark                             old ns/op     new ns/op     delta
+BenchmarkFromBytes-2                  9.57          10.8          +12.85%
+BenchmarkFromString-2                 172           175           +1.74%
+BenchmarkFromStringUrn-2              174           177           +1.72%
+BenchmarkFromStringWithBrackets-2     158           205           +29.75%
+BenchmarkNewV1-2                      1435          1516          +5.64%
+BenchmarkNewV2-2                      1422          1497          +5.27%
+BenchmarkNewV3-2                      349           361           +3.44%
+BenchmarkNewV4-2                      1210          1350          +11.57%
+BenchmarkNewV5-2                      406           526           +29.56%
+BenchmarkMarshalBinary-2              1.30          0.81          -37.69%
+BenchmarkMarshalText-2                139           168           +20.86%
+BenchmarkUnmarshalBinary-2            6.83          8.04          +17.72%
+BenchmarkUnmarshalText-2              106           133           +25.47%
+BenchmarkMarshalToString-2            92.2          111           +20.39%
