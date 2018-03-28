@@ -6,5 +6,5 @@ go:
     - 1.10
 
 script:
-    - cd vendor/github.com/satori/go.uuid/go test -bench=.
+    - cd vendor/github.com/satori/go.uuid/ && go test -bench=.
 
