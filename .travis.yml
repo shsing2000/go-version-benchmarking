@@ -7,4 +7,5 @@ go:
 
 script:
     - cd vendor/github.com/satori/go.uuid/ && go test -bench=.
+    - cd vendor/github.com/rcrowley/go-metrics/ && go test -bench=.
 
